@@ -1,0 +1,93 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://sourslaw.github.io/content_warning_generic_ii/images/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "All images loaded in sourslaw/content_warning_generic_ii project"
+        ]
+    },
+    "items": [
+        {
+            "id": "https://sourslaw.github.io/content_warning_generic_ii/images/umedia_content_warning/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "umedia_content_warning"
+                ]
+            },
+            "height": 2200,
+            "width": 1700,
+            "items": [
+                {
+                    "id": "https://sourslaw.github.io/content_warning_generic_ii/images/umedia_content_warning/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://sourslaw.github.io/content_warning_generic_ii/images/umedia_content_warning/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://sourslaw.github.io/content_warning_generic_ii/images/umedia_content_warning/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 54,
+                                                "height": 69
+                                            },
+                                            {
+                                                "width": 107,
+                                                "height": 138
+                                            },
+                                            {
+                                                "width": 213,
+                                                "height": 275
+                                            },
+                                            {
+                                                "width": 425,
+                                                "height": 550
+                                            },
+                                            {
+                                                "width": 850,
+                                                "height": 1100
+                                            },
+                                            {
+                                                "width": 1700,
+                                                "height": 2200
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 1700,
+                                        "@id": "https://sourslaw.github.io/content_warning_generic_ii/images/umedia_content_warning",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 2200,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://sourslaw.github.io/content_warning_generic_ii/images/umedia_content_warning/canvas/"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
